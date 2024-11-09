@@ -1,0 +1,121 @@
+.forul {
+    list-style: none; 
+    margin-left: 10%; 
+    margin-right: 10%;
+    padding: 0;
+    background-color: rgb(214, 205, 193);
+    border: 1px solid black;
+}
+.forli {
+    display: flex;
+    color:rgb(0, 0, 0);
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+}
+.fornav{
+    width: 100%;
+}
+.fora{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+.forli:hover{
+    background-color: tan;
+    cursor: pointer;
+}
+.forli:last-child {
+    /* чтобы самая нижняя линия была не двойная */
+    border-bottom: none;
+}
+.forh1{
+    display: flex;
+    justify-content: center;
+    color: rgb(232, 213, 185);
+    font-size: 35px;
+    margin-bottom: 0.5em;
+    margin-top: 0.7em;
+    background-color: rgb(73, 42, 3);
+    border-radius: 0.5em;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 1);
+
+    margin-right: 1%;
+    margin-left: 2.8%;
+    padding: 2%;
+    
+}
+.forh2{
+    color: rgb(131, 76, 39);
+    font-size: xx-large;
+}
+.forh3{
+    color: rgb(160, 86, 54);
+    font-size: x-large; 
+}
+.maintext{
+    font-size: large;
+    display: flex;
+    background-color: rgb(251, 245, 237);
+    border: 1px solid rgb(105,54,35);
+    border-radius: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-left: 3%;
+    padding-right: 5%;
+}
+.fora2{
+    color:rgb(0, 0, 0);
+    text-decoration: underline;
+}
+img{
+    display: flex;
+    text-align: center;
+    margin-top: 2%;
+    border-radius: 1em;
+}
+.fordiv{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 400px){
+    .maintext{
+        font-size: medium;
+    }
+
+    .forh1{
+        font-size: 25px;
+    }
+    
+    .forh2{
+        font-size: x-large;
+    }
+    
+}
+@media (max-width: 500px)
+{
+    .maintext{
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        padding-left: 3%;
+        padding-right: 5%;
+    }
+    .forul {
+        margin-left: 1%; 
+        margin-right: 1%;
+        padding: 0;
+    }
+}
+@media (max-width: 1000px)
+{
+    img{
+        width: 70%;
+    }
+}
